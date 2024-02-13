@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 import Modal from "./Modal";
 import PopupConfirm from "./PopupConfirm";
 import toast from "react-hot-toast";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../features/authentication/authSlice";
 
 const StyledDashboardAside = styled.aside`
@@ -109,14 +109,15 @@ const StyledDashboardAside = styled.aside`
 `;
 
 function DashboardAside() {
+  const user = useSelector((state) => state.user.user);
   const dispatch = useDispatch();
   return (
     <StyledDashboardAside>
       <div>
         <img src="./assets/images/user-avatar.jpg" alt="user avatar" />
         <div>
-          <h3>{"کاربر ترخینه"}</h3>
-          <p>{"09148643350"}</p>
+          <h3>{user.name}</h3>
+          <p>{user.phone}</p>
         </div>
       </div>
       <ul>
