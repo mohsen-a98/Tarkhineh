@@ -148,10 +148,6 @@ function Login({ onCloseModal }) {
   } = useForm({
     mode: "onChange",
     reValidateMode: "onChange",
-    defaultValues: {
-      name: "",
-      phone: "",
-    },
   });
 
   function onSubmit({ name, phone }) {
@@ -177,6 +173,7 @@ function Login({ onCloseModal }) {
             <input
               type="text"
               id="name"
+              defaultValue="محسن"
               {...register("name", {
                 required: "نام و نام خانوادگی را وارد کنید",
               })}
@@ -189,6 +186,7 @@ function Login({ onCloseModal }) {
             <input
               type="tel"
               id="phone"
+              defaultValue="09999999999"
               {...register("phone", {
                 required: "شماره همراه را وارد کنید",
                 pattern: {
