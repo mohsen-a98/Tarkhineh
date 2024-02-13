@@ -1,8 +1,37 @@
-# React + Vite
+<div dir='rtl'>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ترخینه
 
-Currently, two official plugins are available:
+## پیش نمایش
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://tarkhineh-restaurant.vercel.app/
+
+## عکس از برنامه
+
+![App Screenshot](https://i.ibb.co/M1RddNx/demo.jpg)
+
+## ویژگی ها
+
+- spa app
+- اضافه و حذف کردن از سبد خرید
+- اضافه و حذف کردن از محصولات مورد علاقه
+- فیلتر کردن محصولات
+- لاگین کردن و خارج شدن از برنامه
+- کم یا زیاد کردن مقادیر موجود در سبد خرید
+- مشاهده سفارش های قبلی
+- جست و جو کردن در محصولات
+- استفاده از api
+
+## تکنولوژی ها و کتاب خانه های استفاده شده در برنامه
+
+- react-router-dom
+- redux
+- react Query
+- axios
+- swiper
+- react hook form
+- react hot toast
+- react multi date picker
+- styled component
+
+</div>
