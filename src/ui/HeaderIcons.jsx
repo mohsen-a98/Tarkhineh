@@ -88,7 +88,12 @@ function HeaderIcons() {
       <Link to="#">
         <SearchIcon />
       </Link>
-      <Link to="shoppingCart">
+      <Link
+        onClick={() => {
+          if (!isLoggedIn) return toast.error("برای خرید ابتدا باید وارد شوید");
+          navigate("/shoppingCart");
+        }}
+      >
         <CartIcon />
         {isLoggedIn && <Badge>{cartCount}</Badge>}
       </Link>
