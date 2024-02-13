@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import toast, { Toaster } from "react-hot-toast";
-import AppLayout from "./ui/AppLayout";
+import AppLayout from "./ui/Applayout";
 import ProtectedRouteHelper from "./ui/ProtectedRouteHelper";
 import ProtectedRoute from "./ui/ProtectedRoute";
 import { logout } from "./features/authentication/authSlice";
