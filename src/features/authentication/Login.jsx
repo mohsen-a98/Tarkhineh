@@ -143,7 +143,7 @@ function Login({ onCloseModal }) {
   const {
     register,
     handleSubmit,
-    formState: { errors, isDirty, isValid },
+    formState: { errors, isValid },
     reset,
   } = useForm({
     mode: "onChange",
@@ -201,7 +201,7 @@ function Login({ onCloseModal }) {
             />
           </FormRow>
         </div>
-        <Button disabled={!isDirty || !isValid}>
+        <Button disabled={!isValid}>
           {isLoading ? <SpinnerMini width="30px" /> : "ادامه"}
         </Button>
       </Form>
