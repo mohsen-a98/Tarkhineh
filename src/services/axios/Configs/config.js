@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiRequest = axios.create({
-  baseURL: "https://energetic-tutu-seal.cyclic.app",
+  baseURL: "https://tarkhineh-jserver.liara.run",
   headers: {
     "Content-Type": "application/json",
   },
