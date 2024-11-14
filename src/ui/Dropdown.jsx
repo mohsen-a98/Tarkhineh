@@ -7,6 +7,7 @@ const StyledDropdownButton = styled.button`
   display: flex;
   align-items: center;
   gap: 0.4rem;
+  cursor: pointer;
 
   ${(props) =>
     props.open === "open" &&
