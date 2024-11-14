@@ -161,7 +161,7 @@ function FoodCard({ food }) {
   const [isFavorite, setIsFavorite] = useState(false);
   return (
     <StyledFoodCard>
-      <img src={food.image} alt={food.title} />
+      <img src={food.image} alt={food.title} loading="lazy" />
       <FoodCardBody>
         <h3>{food.title}</h3>
         <Heart

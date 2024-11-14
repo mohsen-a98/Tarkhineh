@@ -86,7 +86,7 @@ const BackImg = styled.div`
       rgba(0, 0, 0, 0.65) 0%,
       rgba(0, 0, 0, 0.65) 100%
     ),
-    url("./assets/images/top-frame.png") no-repeat;
+    url("./assets/images/top-frame.webp") no-repeat;
   background-size: cover;
   width: 25.6rem;
   height: 10.4rem;

@@ -51,11 +51,11 @@ function FranchiseCarousel() {
     <StyledFranchiseCarousel>
       <Swiper autoplay={{ delay: 3000 }}>
         <SwiperSlide>
-          <img src="./assets/images/bg-franchise.jpg" />
+          <img src="./assets/images/bg-franchise.webp" />
           <h2>همین الان به خانواده بزرگ ترخینه بپیوندید!</h2>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./assets/images/bg-franchise.jpg" />
+          <img src="./assets/images/bg-franchise.webp" />
           <h2>همین الان به خانواده بزرگ ترخینه بپیوندید!</h2>
         </SwiperSlide>
       </Swiper>

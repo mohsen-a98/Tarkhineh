@@ -52,11 +52,19 @@ function ContactUsCarousel() {
     <StyledContactUsCarousel>
       <Swiper autoplay={{ delay: 3000 }}>
         <SwiperSlide>
-          <img src="./assets/images/contactUs-carousel.jpg" alt="carousel" />
+          <img
+            src="./assets/images/contactUs-carousel.webp"
+            alt="carousel"
+            loading="lazy"
+          />
           <h2>با ترخینه در تماس باشید.</h2>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./assets/images/contactUs-carousel.jpg" alt="carousel" />
+          <img
+            src="./assets/images/contactUs-carousel.webp"
+            alt="carousel"
+            loading="lazy"
+          />
           <h2>با ترخینه در تماس باشید.</h2>
         </SwiperSlide>
       </Swiper>

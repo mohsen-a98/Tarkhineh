@@ -189,7 +189,7 @@ function FoodMenuCard({ food }) {
 
   return (
     <StyledFoodMenuCard>
-      <img src={food.image} alt={food.title} />
+      <img src={food.image} alt={food.title} loading="lazy" />
       <FoodCardBody>
         <Title>{food.title}</Title>
         <Discount>

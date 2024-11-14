@@ -132,23 +132,39 @@ function FoodCategory() {
           <CategoryItems>
             <div>
               <div>
-                <img src="./assets/images/food-category-1.png" alt="" />
+                <img
+                  src="./assets/images/food-category-1.webp"
+                  alt="main food"
+                  loading="lazy"
+                />
                 <Button color="white">غذای اصلی</Button>
               </div>
               <div>
-                <img src="./assets/images/food-category-2.png" alt="" />
+                <img
+                  src="./assets/images/food-category-2.webp"
+                  alt="appetizer"
+                  loading="lazy"
+                />
                 <Button color="white">پیش غذا</Button>
               </div>
             </div>
             <div>
               <div>
-                <img src="./assets/images/food-category-3.png" alt="" />
+                <img
+                  src="./assets/images/food-category-3.webp"
+                  alt="dessert"
+                  loading="lazy"
+                />
                 <Button color="white" size="sm">
                   دسر
                 </Button>
               </div>
               <div>
-                <img src="./assets/images/food-category-4.png" alt="" />
+                <img
+                  src="./assets/images/food-category-4.webp"
+                  alt="drinks"
+                  loading="lazy"
+                />
                 <Button color="white">نوشیدنی</Button>
               </div>
             </div>

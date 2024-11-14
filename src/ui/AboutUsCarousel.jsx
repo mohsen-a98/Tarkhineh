@@ -52,11 +52,19 @@ function AboutUsCarousel() {
     <StyledAboutUsCarousel>
       <Swiper autoplay={{ delay: 3000 }}>
         <SwiperSlide>
-          <img src="./assets/images/aboutUs-carousel.jpg" />
+          <img
+            src="./assets/images/aboutUs-carousel.webp"
+            loading="lazy"
+            alt="carousel"
+          />
           <h2>درباره ترخینه بیشتر بدانید!</h2>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./assets/images/aboutUs-carousel.jpg" />
+          <img
+            src="./assets/images/aboutUs-carousel.webp"
+            loading="lazy"
+            alt="carousel"
+          />
           <h2>درباره ترخینه بیشتر بدانید!</h2>
         </SwiperSlide>
       </Swiper>

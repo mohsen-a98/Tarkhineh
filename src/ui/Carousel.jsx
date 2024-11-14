@@ -139,21 +139,21 @@ function Carousel({ includeButton }) {
         injectStyles={[injectStyles]}
       >
         <SwiperSlide>
-          <img src="./assets/images/slider-1.jpg" alt="food" />
+          <img src="./assets/images/slider-1.webp" alt="food" loading="lazy" />
           <div>
             <h3>یک ماجراجویی آشپزی برای تمام حواس</h3>
             <Button onClick={() => navigate("/menu")}>سفارش آنلاین غذا</Button>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./assets/images/slider-2.jpg" alt="food" />
+          <img src="./assets/images/slider-2.webp" alt="food" loading="lazy" />
           <div>
             <h3>طعم بی‌نظیر طبیعت!</h3>
             <Button onClick={() => navigate("/menu")}>سفارش آنلاین غذا</Button>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./assets/images/slider-3.jpg" alt="food" />
+          <img src="./assets/images/slider-3.webp" alt="food" loading="lazy" />
           <div>
             <h3>لذت غذای سالم و گیاهی را با ترخینه تجربه کنید!</h3>
             <Button onClick={() => navigate("/menu")}>سفارش آنلاین غذا</Button>

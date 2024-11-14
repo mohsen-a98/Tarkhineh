@@ -9,7 +9,7 @@ const StyledFooter = styled.footer`
       rgba(0, 0, 0, 0.65) 0%,
       rgba(0, 0, 0, 0.65) 100%
     ),
-    url("./assets/images/bg-footer.jpeg"), no-repeat;
+    url("./assets/images/bg-footer.webp"), no-repeat;
   background-size: cover;
   background-position: center;
   display: grid;

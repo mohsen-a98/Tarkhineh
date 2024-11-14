@@ -57,15 +57,27 @@ function FaqCarousel() {
     <StyledFaqCarousel>
       <Swiper autoplay={{ delay: 3000 }}>
         <SwiperSlide>
-          <img src="./assets/images/bg-carousel-faq.jpg" alt="سوالات متداول" />
+          <img
+            src="./assets/images/bg-carousel-faq.webp"
+            alt="سوالات متداول"
+            loading="lazy"
+          />
           <h2>سوالات متداول از ترخینه</h2>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./assets/images/bg-carousel-rules.jpg" alt="قوانین" />
+          <img
+            src="./assets/images/bg-carousel-rules.webp"
+            alt="قوانین"
+            loading="lazy"
+          />
           <h2>قوانین ترخینه</h2>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./assets/images/bg-carousel-privacy.jpg" alt="حریم خصوصی" />
+          <img
+            src="./assets/images/bg-carousel-privacy.webp"
+            alt="حریم خصوصی"
+            loading="lazy"
+          />
           <h2>حریم شخصی کاربران</h2>
         </SwiperSlide>
       </Swiper>

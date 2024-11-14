@@ -6,8 +6,6 @@ import Button from "./Button";
 import Modal from "./Modal";
 import { ArrowLeftIcon, GalleryIcon } from "../assets/svg";
 import { useNavigate } from "react-router-dom";
-// import { useErrorToaster } from "../hooks/useErrorToaster";
-// import ErrorFallback from "./ErrorFallback";
 
 const StyledBranchesList = styled.section`
   text-align: center;
@@ -176,6 +174,7 @@ function BranchesList() {
               style={{ maxHeight: "44rem" }}
               src={branch.image}
               alt={branch.name}
+              loading="lazy"
             />
           </Modal.Window>
         </Modal>

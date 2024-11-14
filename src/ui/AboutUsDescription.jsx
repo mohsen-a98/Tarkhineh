@@ -163,7 +163,11 @@ function AboutUsDescription() {
       <Container>
         <div>
           <h2>درباره ما</h2>
-          <img src="./assets/images/aboutUs.jpg" />
+          <img
+            src="./assets/images/aboutUs.webp"
+            loading="lazy"
+            alt="about us"
+          />
           <p>
             رستوران‌های زنجیره‌ای ترخینه در سال ۱۳۶۸ افتتاح گردیده‌اند و در طی
             این سال‌ها همواره با ارائه غذاهای باکیفیت و سرویس سریع و به موقع در

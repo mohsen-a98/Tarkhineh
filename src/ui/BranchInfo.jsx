@@ -154,10 +154,18 @@ function BranchInfo() {
         ]}
       >
         <SwiperSlide>
-          <img src="./assets/images/branch-carousel.jpg" alt="" />
+          <img
+            src="./assets/images/branch-carousel.webp"
+            alt="carousel"
+            loading="lazy"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./assets/images/branch-carousel.jpg" alt="" />
+          <img
+            src="./assets/images/branch-carousel.webp"
+            alt="carousel"
+            loading="lazy"
+          />
         </SwiperSlide>
       </Swiper>
       <Info>

@@ -15,7 +15,7 @@ const StyledIntroduction = styled.section`
       rgba(0, 0, 0, 0.65) 0%,
       rgba(0, 0, 0, 0.65) 100%
     ),
-    url("./assets/images/bg-Introduction-section.jpg") no-repeat;
+    url("./assets/images/bg-Introduction-section.webp") no-repeat;
   background-size: cover;
   background-position: center;
   color: var(--color-white);

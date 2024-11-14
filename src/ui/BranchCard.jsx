@@ -156,7 +156,7 @@ function BranchCard({ branch }) {
           <GalleryIcon />
         </Modal.Open>
         <Modal.Window>
-          <img src={branch.image} alt={branch.name} />
+          <img src={branch.image} alt={branch.name} loading="lazy" />
         </Modal.Window>
       </Modal>
 

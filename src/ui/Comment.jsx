@@ -110,7 +110,7 @@ function Comment({ comment }) {
   return (
     <StyledComment>
       <InfoUser>
-        <img src={`${comment.avatar}`} alt="avatar" />
+        <img src={`${comment.avatar}`} alt="avatar" loading="lazy" />
         <span>{comment.name}</span>
         <time>{formatDate(comment.date)}</time>
       </InfoUser>
