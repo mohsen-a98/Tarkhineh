@@ -83,6 +83,8 @@ const StyledDashboardAside = styled.aside`
         color: currentColor;
         font-size: 1.4rem;
         font-weight: 400;
+        width: max-content;
+        cursor: pointer;
 
         &.active {
           color: var(--color-primary);
