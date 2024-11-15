@@ -97,7 +97,7 @@ const Cart = styled.div`
 const CartList = styled.ul`
   height: 19.5rem;
   padding: 1.2rem 0;
-  overflow-y: scroll;
+  overflow-y: auto;
   display: none;
 
   ${(props) =>

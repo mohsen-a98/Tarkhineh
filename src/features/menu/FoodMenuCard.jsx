@@ -72,7 +72,7 @@ const Title = styled.span`
   font-size: 1.2rem;
   white-space: nowrap;
   overflow-y: hidden;
-  overflow-x: scroll;
+  overflow-x: auto;
 
   @media screen and (min-width: 1024px) {
     font-size: 2rem;

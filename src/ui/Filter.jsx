@@ -7,7 +7,7 @@ const StyledFilter = styled.div`
   align-items: center;
   gap: 0.8rem;
   padding: 0.8rem 0;
-  overflow-x: scroll;
+  overflow-x: auto;
 `;
 
 function Filter({ items, queryName }) {
