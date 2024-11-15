@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Button from "./Button";
 import { InstagramIcon, TwitterIcon, TelegramIcon } from "../assets/svg";
+import toast from "react-hot-toast";
 
 const StyledFooter = styled.footer`
   background: linear-gradient(
@@ -134,6 +135,7 @@ const Form = styled.form`
     padding-right: 1.6rem;
     border: 1px solid var(--color-grey-700);
     border-radius: var(--border-radius-sm);
+    color: var(--color-grey-100);
 
     height: 4rem;
     &::placeholder {
@@ -148,6 +150,7 @@ const Form = styled.form`
     background-color: transparent;
     padding: 1.4rem 1.6rem;
     resize: none;
+    color: var(--color-grey-100);
     &::placeholder {
       color: var(--color-grey-100);
     }
@@ -164,6 +167,15 @@ const Form = styled.form`
 `;
 
 function Footer() {
+  function handleSubmit(e) {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const data = Object.fromEntries(formData.entries());
+    toast.success("پیام با موفقیت ارسال شد");
+    console.log("data", data);
+    e.target.reset();
+  }
+
   return (
     <StyledFooter>
       <SectionEasyAccess>
@@ -216,14 +228,21 @@ function Footer() {
       </SectionBranches>
       <SectionForm>
         <h5>پیام به ترخینه</h5>
-        <Form>
+        <Form onSubmit={handleSubmit}>
           <input
             type="text"
             name="name"
             id="name"
             placeholder="نام و نام خانوادگی"
+            required
           />
-          <input type="tel" name="phone" id="phone" placeholder="شماره تماس" />
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="شماره تماس"
+            required
+          />
           <input
             type="email"
             name="email"
@@ -234,6 +253,7 @@ function Footer() {
             name="textarea"
             id="textarea"
             placeholder="پیام شما"
+            required
           ></textarea>
 
           <Button color="white" size="sm" variations="outline">
