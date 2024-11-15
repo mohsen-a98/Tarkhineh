@@ -36,6 +36,7 @@ const StyledItem = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 
     h3 {
       font-size: 1.4rem;
