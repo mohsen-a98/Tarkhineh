@@ -147,6 +147,7 @@ const Form = styled.form`
     border-radius: var(--border-radius-sm);
     background-color: transparent;
     padding: 1.4rem 1.6rem;
+    resize: none;
     &::placeholder {
       color: var(--color-grey-100);
     }
